@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<h1>Admin Panel</h1>
+
+<form method="POST" action="/admin">
+    <label>Project Title:</label><br>
+    <input type="text" name="title" required><br><br>
+
+    <label>Description:</label><br>
+    <textarea name="description" required></textarea><br><br>
+
+    <button type="submit">Add Project</button>
+</form>
+
+<p><a href="/projects">View Projects</a></p>
+
+</body>
+</html>

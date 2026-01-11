@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+h1 {
+    color: #222;
+}
